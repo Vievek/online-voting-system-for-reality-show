@@ -1,0 +1,83 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+.contactcontainer {
+    display: flex;
+    flex-direction: column;
+    min-height: 75vh;
+    justify-content: space-around;
+}
+
+.contactinfo {
+    display: flex;
+    justify-content: center;
+    font-size: 2rem;
+    padding: 10px;
+}
+
+.contactusform {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin: 20px 100px 80px;
+    border: 2px black solid;
+}
+
+.contactdetails {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    justify-content: center;
+    padding: 20px 70px;
+}
+
+.contactusform form {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 1rem;
+    gap: 30px;
+    padding: 20px 70px;
+}
+
+.formBox {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.inputBox {
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+    border-bottom: 1px black solid 0.8;
+    padding: 1px;
+}
+
+.inputBox input {
+    width: 400px;
+    height: 40px;
+    padding: 4px 20px;
+}
+
+.inputBox textarea {
+    height: 80px;
+    padding: 20px 20px;
+}
+
+.submit {
+    margin: 5px 0 10px;
+    display: flex;
+    justify-content: center;
+
+}
+
+.submit input {
+    padding: 10px 40px;
+    font-size: 1rem;
+    border-radius: 20px;
+}

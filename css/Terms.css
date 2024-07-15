@@ -1,0 +1,46 @@
+ * {
+     padding: 0px;
+     margin: 0px;
+     box-sizing: border-box;
+ }
+
+ .term-container {
+     display: flex;
+     flex-direction: column;
+     justify-content: space-around;
+     min-height: 100vh;
+     align-items: center;
+     padding: 20px 40px;
+ }
+
+ .termh {
+     font-size: 3rem;
+ }
+
+ .term-para {
+     display: flex;
+     flex-direction: column;
+     gap: 10px;
+ }
+
+ .termbtn {
+     display: flex;
+     gap: 10px;
+     justify-content: center;
+ }
+
+ .termbtn button {
+
+     padding: 10px 20px;
+     background-color: #24262b;
+     border: none;
+     border-radius: 5px;
+     color: #fff;
+     font-weight: bold;
+     cursor: pointer;
+     transition: border-color 0.3s, transform 0.3s;
+ }
+
+ .termbtn button:hover {
+     transform: translateY(-2px);
+ }

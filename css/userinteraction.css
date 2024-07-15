@@ -1,0 +1,71 @@
+body{
+    position: relative;
+}
+main{
+    position: relative;
+    min-height: 100vh;
+}
+.userinteractioncon {
+    margin: 30px 50px;
+    border: 2px black solid;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    align-items: center;
+    border-radius: 20px;
+}
+
+.userinteractionform form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.poll {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.poll input {
+   align-self: center;
+}
+.popup {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 999;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+.userinteddefault{
+ position: absolute;
+ top: 300px;
+ left: 500px;
+ text-align: center;
+}
+
+.button {
+    margin: 10px;
+    padding: 10px 20px;
+    background-color: #24262b;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    font-weight: bold;
+    cursor: pointer;
+    transition: border-color 0.3s, transform 0.3s;
+}
+
+.button a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.button:hover {
+    transform: translateY(-2px);
+}

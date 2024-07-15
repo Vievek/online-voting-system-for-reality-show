@@ -1,0 +1,45 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+.contacteditcontainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px;
+    gap: 50px;
+    min-height: 50vh;
+}
+
+.contacteditcontainer h1 {
+    font-size: 3rem;
+}
+
+.contacteditbtn {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.contacteditbtn button {
+    padding: 10px 20px;
+    background-color: #24262b;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    font-weight: bold;
+    cursor: pointer;
+    transition: border-color 0.3s, transform 0.3s;
+}
+
+.contacteditbtn button a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.contacteditbtn button:hover {
+    transform: translateY(-2px);
+}

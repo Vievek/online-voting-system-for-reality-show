@@ -1,0 +1,23 @@
+main{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    align-items: center;
+    min-width: 100vh;
+    padding: 50px;
+}
+.abouth1,.abouth{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.abouth1 h2{
+    font-size: 4rem;
+    margin-bottom: 4rem;
+}
+ p,li{
+    font-size: 1.5rem;
+}
+h2{
+    font-size: 2rem;
+}
